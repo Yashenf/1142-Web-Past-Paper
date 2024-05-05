@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formContent">
+        <h1 id="heading">Student Form</h1>
+        <form action="#">
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="Age">Age</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <label for="provence">Provence</label>
+                <select name="provence" id="provence">
+                    <option value="Western">Western</option>
+                    <option value="Central" selected>Central</option>
+                    <option value="Nothern">Nothern</option>
+                </select>
+            </div>
+            <div>
+                <span>Gender</span>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <label id="addressTxt" for="Address">Address</label>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
